@@ -11,6 +11,5 @@ export class CardDepoimentoComponent {
     Eles oferecem um serviço personalizado e de alta qualidade
     que excedeu minhas expectativas em minha última viagem.
   `;
-  
   autoria: string = 'Mariana Faustino';
 }
