@@ -1,11 +1,19 @@
-.example-spacer {
-  flex: 1 1 auto;
-}
+.app-header {
+  .spacer {
+    flex: 1 1 auto;
+  }
 
-.mat-toolbar {
-  background-color: black;
+  .mat-toolbar {
+    background-color: black;
+    padding: 0 256px;
 
-  button {
-    color: white;
+    button {
+      color: white;
+      margin: 0 16px;
+    }
+  }
+
+  .mat-mdc-outlined-button:not(:disabled) {
+    border-color: white;
   }
 }
